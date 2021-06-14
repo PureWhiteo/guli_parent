@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<parent>
+    <artifactId>service</artifactId>
+    <groupId>com.atguigu</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+</parent>
+<modelVersion>4.0.0</modelVersion>
+
+<artifactId>service_edu</artifactId>
+
+<dependencies>
+    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-tomcat -->
+<!--    &lt;!&ndash; 解决构建失败问题 &ndash;&gt;-->
+<!--    <dependency>-->
+<!--        <groupId>com.fasterxml.jackson.core</groupId>-->
+<!--        <artifactId>jackson-databind</artifactId>-->
+<!--        <exclusions>-->
+<!--            <exclusion>-->
+<!--                <groupId>com.fasterxml.jackson.core</groupId>-->
+<!--                <artifactId>jackson-annotations</artifactId>-->
+<!--            </exclusion>-->
+<!--        </exclusions>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--        <groupId>com.fasterxml.jackson.core</groupId>-->
+<!--        <artifactId>jackson-annotations</artifactId>-->
+<!--        <version>2.9.8</version>-->
+<!--        &lt;!&ndash; 版本可以使用2.9.3、2.9.5 、2.9.8，不能忽略version属性&ndash;&gt;-->
+<!--    </dependency>-->
+        <!-- https://mvnrepository.com/artifact/com.alibaba/easyexcel -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+</dependencies>
+</project>
